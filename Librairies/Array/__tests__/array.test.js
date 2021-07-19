@@ -222,7 +222,7 @@ describe('Array library', () =>
             // Arrange
             const array = [1, 2, 11, 20, 4, 50]
             const callback = element => element > 10
-            const expectedNewArray = [11, 20, 50]
+            const expectedNewArray = [11, 0, 50]
 
             // Act
             const newArray = arrayLibrary.filter(array, callback)
