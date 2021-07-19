@@ -5,3 +5,6 @@ Développement d'un formulaire responsive et de sa validation https://laeti-comp
 
 Développement d'un CRUD qui utilise une fausse API :
 > ![Image of Yaktocat](https://user-images.githubusercontent.com/77897283/126187551-d23cef7f-417b-4c30-9d90-e3bcec51ae24.png)
+
+Développement d'un caroussel permettant de faire défiler des images à partir des boutons "suivant" et "précédent" https://laeti-caroussel.netlify.app/
+> ![Image of Yaktocat](https://user-images.githubusercontent.com/77897283/126204035-c7a3322a-1726-4253-92c8-076b0cdde1a3.png)
