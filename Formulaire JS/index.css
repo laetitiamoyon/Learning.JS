@@ -1,0 +1,137 @@
+body
+{
+    box-sizing: border-box;
+
+    background-color: blue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    margin: 0;
+}
+
+.form-container
+{
+    background-color: white;
+
+    max-width: 600px;
+    
+    border-radius: 5px;
+    box-shadow: 0 5px 10px grey;
+}
+
+.form
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap : 0px 50px;
+
+}
+
+.header-form
+{
+    border-bottom: 1px solid #f0f0f0;
+    border-radius: 5px;
+
+    padding: 20px 0px;
+
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    background-color: #f7f7f7;
+}
+
+.header-form title
+{
+    margin: 0;
+}
+
+.error-summary
+{
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.checked-logo, .exclamation-logo
+{
+    width: 18px;
+    right : 20px;
+    position: absolute;
+    top : 33px;
+}
+
+.form
+{
+    padding: 30px 40px;
+}
+
+.form-control
+{
+    position : relative;
+    margin-bottom: 10px;
+}
+
+.form-control input
+{
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+}
+
+.country
+{
+    width: 97%;
+    padding: 10px;
+    margin-top: 5px;
+
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+}
+
+.form-control.success input{ outline-color: #2ecc71;}
+
+.form-control.error input{ outline-color: #e74c3c; }
+
+.exclamation-logo
+
+.form-control span {color: #e74c3c;}
+
+.error-message
+{
+    color: #e74c3c;
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+.error-message
+{
+    color: #2ecc71;
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+.submit-button
+{
+    background-color: #55A523;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+    width: 200px;
+    padding: 15px 50px;
+
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+.error-summary, .error-message { color : red; }
+
+select:invalid { color : grey;}

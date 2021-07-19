@@ -1,0 +1,174 @@
+* { box-sizing: border-box;}
+
+body
+{
+    background: rgb(146,27,227);
+    background: linear-gradient(90deg, rgba(146,27,227,1) 0%, rgba(233,148,206,1) 100%);
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo-list-title
+{
+    font-size: 30px;
+    font-weight: 600;
+
+    margin : 50px 20px 10px;
+}
+
+.todo, .undone-todo
+{
+    display: flex;
+    align-items: center;
+
+    background: white;
+    color: black;
+
+    border-radius: 5px;
+
+    padding: 10px 15px;
+    margin: 2px 20px;
+}
+
+.todo-uncheked
+{
+    border: blueviolet 2px solid;
+    border-radius: 50%;
+
+    background-color: white;
+
+    width: 20px;
+    height: 20px;
+
+    margin-right: 10px;
+
+    cursor: pointer;
+}
+
+
+.todo-delete
+{
+    background-image: url(icons/delete.png);
+    background-size: cover;
+
+    width: 15px;
+    height: 15px;
+
+    cursor: pointer;
+
+    margin-left: auto;
+}
+
+.arrow-down-image
+{
+    background-image: url(icons/arrow-down.png);
+    background-size: cover;
+
+    width: 15px;
+    height: 15px;
+
+    cursor: pointer;
+
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.arrow-right-image
+{
+    background-image: url(icons/arrow-right.png);
+    background-size: cover;
+
+    width: 15px;
+    height: 15px;
+
+    cursor: pointer;
+
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.done-todo-list-title
+{
+    margin: 10px 20px 10px;
+    padding: 5px 5px;
+
+    width: 120px;
+
+    border-radius: 3px;
+
+    background-color: rgb(174, 108, 236);
+
+    display: flex;
+    align-items: center;
+}
+
+.todo-checked, .todo-unchecked
+{
+    border: blueviolet 2px solid;
+    border-radius: 50%;
+
+    width: 20px;
+    height: 20px;
+
+    margin-right: 10px;
+
+    cursor: pointer;
+}
+
+.todo-checked { background-color: blueviolet; }
+
+.todo-checked-image
+{
+    background-image: url(icons/checked.png);
+    background-size: cover;
+
+    width: 15px;
+    height: 15px;
+}
+
+.add-todo
+{
+    margin: 10px 20px 10px;
+    padding: 5px 5px;
+
+    background-color: rgb(174, 108, 236);
+
+    width: calc(100% - 40px);
+
+    border-radius: 3px;
+
+    display: flex;
+}
+
+.add-todo-image
+{
+    background-image: url(icons/plus.png);
+    background-size: cover;
+
+    width: 20px;
+    height: 20px;
+
+    margin-right: 5px;
+    margin-left: 5px;
+
+    cursor: pointer;
+}
+
+.add-todo-content, .add-todo-content::placeholder
+{
+    background-color: transparent;
+
+    color: white;
+    font-size: 16px;
+
+
+    outline: none;
+    border: none;
+}
+
+
+.hidden {display: none;}
+
+
+

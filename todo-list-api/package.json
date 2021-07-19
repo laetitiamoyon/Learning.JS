@@ -1,0 +1,27 @@
+{
+  "name": "todo-list-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server db.json --port 3004",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laetitiamoyon/todo-list-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laetitiamoyon/todo-list-api/issues"
+  },
+  "homepage": "https://github.com/laetitiamoyon/todo-list-api#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {
+    "jest": "^27.0.5"
+  }
+}
