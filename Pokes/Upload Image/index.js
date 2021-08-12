@@ -3,16 +3,12 @@ let input = document.querySelector('input')
 
 const uploadImage = () =>
 {
-    let file = input.files[0]
+    if (!input.files || !input.files[0]) return
 
-    if (!file) return
-    if (/\.(jpe?g|png|gif)$/i.test(file.name))
-    {
-        var reader = new FileReader();
-    
-        reader.addEventListener("load", loadEvent => image.src = loadEvent.target.result)
-        reader.readAsDataURL(file)
-    }
+    let reader = new FileReader();
+
+    reader.addEventListener("load", loadEvent => image.src = loadEvent.target.result)
+    reader.readAsDataURL(input.files[0])
 }
 
 document.addEventListener('change', uploadImage)
