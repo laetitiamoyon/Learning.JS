@@ -1,4 +1,4 @@
-**Année de développement :** 2021.</br>
+**Année de développement :** 2020.</br>
 
 Développement d'un formulaire responsive et de sa validation, ce formulaire détecte les potentiels erreurs lorsque les champs ne sont pas ou mal renseignés. En effet à chaque anomalie détectée, il indiquera en dessous du champ concerné le motif de l’erreur.
 
