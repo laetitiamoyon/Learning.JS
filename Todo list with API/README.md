@@ -1,10 +1,8 @@
 **Année de développement :** 2021.</br>
 
-Développement d'une todo list en CRUD qui utilise une fausse API, cette application permet aux utilisateurs d’ajouter, de modifier, de supprimer et de cocher des tâches une fois qu’elles sont terminées.
+Développement d'une todo list en CRUD qui utilise une fausse API https://laeti-todo-list.netlify.app.
 
-https://laeti-todo-list.netlify.app.
-
-Environnement technique : HTML, CSS, JavaScript, JSON Server.
+**Environnement technique** : JSON Server.
 
 Vue PC :
 > ![Image of Yaktocat](https://user-images.githubusercontent.com/77897283/126187551-d23cef7f-417b-4c30-9d90-e3bcec51ae24.png)
