@@ -9,8 +9,8 @@ Vue PC :
 
 Vue tablette:
 
-![2](https://user-images.githubusercontent.com/77897283/139804019-f01c919c-eb9b-41d5-bc73-5bb1ce0c72a8.jpg)
+>![2](https://user-images.githubusercontent.com/77897283/139804019-f01c919c-eb9b-41d5-bc73-5bb1ce0c72a8.jpg)
 
 Vue mobile :
 
-![3](https://user-images.githubusercontent.com/77897283/139804025-30dfdb00-e88e-4486-b05b-7938760569fd.jpg)
+>![3](https://user-images.githubusercontent.com/77897283/139804025-30dfdb00-e88e-4486-b05b-7938760569fd.jpg)
