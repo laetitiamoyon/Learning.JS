@@ -1,4 +1,4 @@
-**Année de développement :** 2021.</br>
+**Année de développement :** 2020.</br>
 
 Développement d'un caroussel qui permet de faire défiler des images à partir des boutons « suivant » et « précédent ».
 
